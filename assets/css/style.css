@@ -3,8 +3,6 @@
 html, body {
     margin: 0;
     padding: 0; 
-}
-body { 
     font-size: 1rem;
 }
 
@@ -14,7 +12,7 @@ body {
 header { 
     font-family: 'Didact Gothic', sans-serif;
     text-align: center; 
-     margin: 0 auto;
+    margin: 0 auto;
 } 
 header h3 {
     font-size: 1em;
@@ -72,14 +70,14 @@ section h3 {
     padding-left: 13%;
 }
 section h1 {
-    font-family: 'Didact Gothic', sans-serif;
     font-size: 6.5em;
     font-weight: lighter;
     margin: 0 auto;
-    padding: 2% 3% 4% 13%;
+    padding: 2% 3% 3% 13%;
 }
 section:nth-of-type(odd) h1 {
     color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
 }
 section:nth-of-type(even) h1 {
     font-family: 'Work Sans', sans-serif;
@@ -92,18 +90,18 @@ section:nth-of-type(even) h3:first-child {
 }
 
   /* MAIN section div */
-section div {
-    margin-top: 8%;
-}
 
+  section div {
+    margin-top: 7%;
+}
 section:nth-of-type(2n+1) a {
     color: #fff;
     font-family: 'Fjalla One', sans-serif;
     font-size: 1.1em;
     text-decoration: none;
     border: 1px solid #fff;
-    padding: 12px 20px;
     margin-left: 13%;
+    padding: 12px 20px;
 }
 section:nth-of-type(2n) a {
     color: #000;
@@ -122,7 +120,6 @@ section:nth-of-type(2n+1) h2 {
     text-align: right;
     margin: 0;
     padding-right: 7%;
-
 }
 section:nth-of-type(2n) h2 {
     color: #666;
@@ -131,18 +128,18 @@ section:nth-of-type(2n) h2 {
     text-align: right;
     margin: 0;
     padding-right: 7%;
-    padding-top: 2%;
+    padding-top: 6%;
 }
-section:first-of-type h2:before {
+section:first-of-type h2::before {
     content: "01";
 }
-section:nth-of-type(2) h2:before {
+section:nth-of-type(2) h2::before {
     content: "02";
 }
-section:nth-of-type(3) h2:before {
+section:nth-of-type(3) h2::before {
     content: "03";
 }
-section:last-of-type h2:before {
+section:last-of-type h2::before {
     content: "04";
 }
 
@@ -225,17 +222,15 @@ footer a:hover {
  /* HEARTBEAT */
     
  footer div {
-  padding-top: 50px;
-  padding-bottom: 5px;
     animation: heartbeat 1s infinite;
 }
 @keyframes heartbeat
 {
     0%
-    {    transform: scale( .15 );  }
+    {    transform: scale( .12 );  }
     50%
-    {    transform: scale( .25 );  }
+    {    transform: scale( .20 );  }
     100% 
-    {    transform: scale( .15 );  }
+    {    transform: scale( .12 );  }
 }
 
