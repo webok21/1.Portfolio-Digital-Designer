@@ -23,7 +23,7 @@ header h1 {
     margin: 0 auto;
 }
 img {
-    width: 55%;
+    width: 50%;
     height: auto;
     padding-top: 4%;
 }
@@ -67,13 +67,13 @@ section h3 {
     font-family: 'Work Sans', sans-serif;
     font-size: 1.1em;  
     margin: 0; 
-    padding-left: 13%;
+    padding-left: 12%;
 }
 section h1 {
     font-size: 6.5em;
     font-weight: lighter;
     margin: 0 auto;
-    padding: 2% 3% 3% 13%;
+    padding: 2% 3% 3% 12%;
 }
 section:nth-of-type(odd) h1 {
     color: #fff;
@@ -91,7 +91,7 @@ section:nth-of-type(even) h3:first-child {
 
   /* MAIN section div */
 
-  section div {
+  section div { 
     margin-top: 7%;
 }
 section:nth-of-type(2n+1) a {
@@ -100,7 +100,7 @@ section:nth-of-type(2n+1) a {
     font-size: 1.1em;
     text-decoration: none;
     border: 1px solid #fff;
-    margin-left: 13%;
+    margin-left: 12%;
     padding: 12px 20px;
 }
 section:nth-of-type(2n) a {
@@ -109,7 +109,7 @@ section:nth-of-type(2n) a {
     font-size: 1.1em;
     text-decoration: none;
     border: 1px solid #000;
-    margin-left: 13%;
+    margin-left: 12%;
     padding: 12px 20px;
 }
 section:nth-of-type(2n+1) h2 {
